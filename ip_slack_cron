@@ -1,0 +1,10 @@
+ # 2017.11.30: Written by Brenden Bickner
+ #
+ # Cronjob schedules the ip programs every 5 minutes.
+ #
+
+SHELL=/bin/bash
+MAILTO=""
+
+#runs the ccd_error_catch program every 5 minutes
+*/5 * * * * root nice -n 19 /home/brenden/Programs/free_vpn/ip_grabber.py &> /tmp/ip_slack_cron
