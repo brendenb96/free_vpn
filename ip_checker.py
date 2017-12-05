@@ -23,7 +23,7 @@ def main():
     UNDERLINE = '\033[4m'
 
     VARS_FILEPATH = '/home/brenden/.ipchecker.vars'
-    SLACK_API_TOKEN = 'xoxb-282920378854-fo83cWTlYsXXjhFXR9Zqu8Xe'
+    SLACK_API_TOKEN = 'whatever'
 
 
     #### OPTION MENU ####
